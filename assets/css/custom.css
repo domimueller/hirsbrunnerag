@@ -11,19 +11,16 @@
 #header a:hover {color: #c2c2c2}
 #header .inner {text-align: left}
 /* logo */
-.logo img {height: 121.333px; cursor: pointer}					/* height = header height (see main.css line 3100) */
+.logo img {height: 121px; cursor: pointer}					/* height = header height (see main.css line 3100) */
 .logo-container {margin-right: 415px; display: inline-block;}	/* margin-right = length of logo */
 nav a {cursor: pointer}
 div a {cursor: pointer}
 
 /******************** Contact ********************/ 
 .realcontent.contact-section {padding-top: 40px !important; padding-bottom: 0px !important;} 
-/* .realcontent.contact-section .inner {margin-left: 0; margin-right: 0} */
 .contact-section {background: white !important;}
 .contact-section .realcontent a, .contact-section .icon  {font-size: 56px; color: #b3b3b3 !important} 
 .contact-link {color: #0073aa}
-/* .realcontent.contact-section .content .icon {margin-left: 50px} */
-/* .rightArticle {margin-left: 105px;} */
 
 /******************** Services ********************/ 
 .services ul li {font-size: 20px;}
@@ -43,4 +40,3 @@ body .contact-section p {margin: 0}
 body .contact-section h5 {margin: 0 0 0.5em}
 body .contact-section  .phone-container {margin: 0 0 1.5em 0}
 body .contact-section.realcontent {margin-bottom: 5.5em}
-/*border-bottom {1px solid rgba(0, 0, 0, 0.05)}*/
