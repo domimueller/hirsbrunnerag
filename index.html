@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<!--
+    Introspect by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+    <head>
+        <title>Harry Hirsbrunner AG</title>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+        
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/custom.css" />
+		
+		<!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        
+        
+        <script>
+            jQuery( document ).ready(function() {
+                jQuery(".serviceSanitaerNavigation").click(function() {
+                    var topOffset = $("#serviceSanitaerContent").offset().top - $("#header").outerHeight()
+                    jQuery([document.documentElement, document.body]).animate({
+                        scrollTop: topOffset
+                    }, 1000);
+                });
+				
+				jQuery(".serviceHeizungNavigation").click(function() {
+                    var topOffset = $("#serviceHeizungContent").offset().top - $("#header").outerHeight()
+                    jQuery([document.documentElement, document.body]).animate({
+                        scrollTop: topOffset
+                    }, 1000);
+                });
+                
+                jQuery(".serviceSolarNavigation").click(function() {
+                    var topOffset = $("#serviceSolarContent").offset().top - $("#header").outerHeight()
+                    jQuery([document.documentElement, document.body]).animate({
+                        scrollTop: topOffset
+                    }, 1000);
+                });
+				
+				jQuery(".serviceWasserversorgungNavigation").click(function() {
+                    var topOffset = $("#serviceWasserversorgungContent").offset().top - $("#header").outerHeight()
+                    jQuery([document.documentElement, document.body]).animate({
+                        scrollTop: topOffset
+                    }, 1000);
+                });
+                
+                jQuery(".contactNavigation").click(function() {
+                    var topOffset = $("#contactContent").offset().top - $("#header").outerHeight() - $(".inner").outerHeight()
+                    jQuery([document.documentElement, document.body]).animate({
+                        scrollTop: topOffset
+                    }, 1000);
+                });  
+                
+                jQuery(".logo").click(function() {
+                    var topOffset = 0
+                    jQuery([document.documentElement, document.body]).animate({
+                        scrollTop: topOffset
+                    }, 1000);
+                });
+            })
+        </script>
+    </head>
+    
+    <body>		
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
+                <div class="logo-container">
+                    <a class="logo">
+                        <img src="images/logo.jpg"  alt="Logo Harry Hirsbrunner"/>
+                    </a>
+                </div>
+                <nav id="nav">
+                    <a class="serviceSanitaerNavigation">Sanitär</a>
+                    <a class="serviceHeizungNavigation">Heizung</a>
+                    <a class="serviceSolarNavigation">Solar</a>
+                    <a class="serviceWasserversorgungNavigation">Wasserversorgung</a>
+                    <a class="contactNavigation">Kontakt</a>
+                </nav>
+            </div>
+        </header>
+        
+        <a href="#menu" class="navPanelToggle">
+            <span class="fa fa-bars"></span>
+        </a>
+        
+        <!-- Banner -->
+        <section id="banner">
+            <div class="inner">
+                <h1>Unsere Erfahrung ist Ihr Vorteil</h1>
+            </div>
+        </section>
+        
+        <!-- One -->
+        <section id="one" class="contactSection">
+            <div class="inner">
+                <header>
+                    <h2>Willkommen bei der Harry Hirsbrunner AG</h2>
+                </header>
+            </div>
+        </section>
+        
+        <section id="two" class="realcontent contact-section">
+            <div class="inner">
+                <article>
+                    <div class="content">
+                        <span class="icon fa-phone"></span>
+                        <header>
+                            <h3 id="contactContent">Kontakt</h3>
+                        </header>
+                        
+                       <div class="phone-container">
+                            <h5>Telefon</h5>
+                            <p>
+                                <span>Harry Hirsbrunner: </span><a class="contact-link" href="tel:+41796514879">+41 79 651 48 79</a> <br>
+                            </p>
+                        </div>
+                        <div class="mail-container">
+    						<h5>E-Mail</h5>
+                            <p>
+                                <span>Geschäftsführer: </span><a class="contact-link" href="mailto:harry@hirsbrunnerag.ch">harry@hirsbrunnerag.ch</a>
+                            </p>
+    						<p>
+                                <span>Stellvertretender Geschäftsführer: </span><a class="contact-link" href="mailto:raphael@hirsbrunnerag.ch">raphael@hirsbrunnerag.ch</a>
+                            </p>
+                            <p>
+                                <span>Büro/ Buchhaltung: </span><a class="contact-link" href="mailto:chantal@hirsbrunnerag.ch">chantal@hirsbrunnerag.ch</a>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="rightArticle">
+                    <div class="content">
+                        <span class="icon fa-map-marker"></span>
+                        <header>
+                            <h3>Adresse</h3>
+                        </header>
+                        <p>Harry Hirsbrunner AG</p>
+                        <p>Bundsacker 515c</p>
+                        <p>3154 Rüschegg-Heubach</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <section id="two" class="services firstServicesRowContent">
+            <div class="inner">
+                <article>
+                    <div class="content">
+                        <header>
+                            <h3 id="serviceSanitaerContent">Sanitär</h3>
+                        </header>
+                        <div class="image fit">
+                            <img src="images/sanitaer.jpg" alt="" />
+                        </div>
+                        <ul>
+                            <li>Neubauten</li>
+                            <li>Umbauten</li>
+                            <li>Service</li> 
+                        </ul>
+                    </div>
+                </article>
+                <article class="alt">
+                    <div class="content">
+                        <header>
+                            <h3 id="serviceHeizungContent">Heizung</h3>
+                        </header>
+                        <div class="image fit">
+                            <img src="images/waermepumpe.jpg" alt="" />
+                        </div>
+                        <ul>
+                            <li>Split-Wärmepumpen</li>
+                            <li>Luft-Wasserwärmepumpen</li>
+                            <li>Erdsondenwärmepumpen</li>
+                            <li>Holzfeuerung</li>
+                            <li>Ölheizungen</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <section id="two" class="services secondServicesRowContent">
+            <div class="inner">
+                <article>
+                    <div class="content">
+                        <header>
+                            <h3 id="serviceSolarContent">Solar</h3>
+                        </header>
+                        <div class="image fit">
+                            <img src="images/solar.jpg" alt="" />
+                        </div>
+                        <ul>
+                            <li>Thermische Solaranlagen</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="alt">
+                    <div class="content">
+                        <header>
+                            <h3 id="serviceWasserversorgungContent">Wasserversorgung</h3>
+                        </header>
+                        <div class="image fit">
+                            <img src="images/wasserversorgung.jpg" alt="" />
+                        </div>
+                        <ul>
+                            <li>Rohrleitungen</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <section id="footer">
+            <div class="inner">				
+                    &copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. 
+                </div>
+        </section>
+        
+    </body>
+</html>

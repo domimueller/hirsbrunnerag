@@ -1,0 +1,46 @@
+/*
+    Custom Styles
+    Authors: Remo Steiger, Dominique Müller
+*/
+
+
+/******************** HEADER ********************/ 
+/* header and menu */
+#header {background-color: #fff}
+#header a, #header a:visited, #header a:active, #header a:focus  {color: #000}
+#header a:hover {color: #c2c2c2}
+#header .inner {text-align: left}
+/* logo */
+.logo img {height: 121.333px; cursor: pointer}					/* height = header height (see main.css line 3100) */
+.logo-container {margin-right: 415px; display: inline-block;}	/* margin-right = length of logo */
+nav a {cursor: pointer}
+div a {cursor: pointer}
+
+/******************** Contact ********************/ 
+.realcontent.contact-section {padding-top: 40px !important; padding-bottom: 0px !important;} 
+/* .realcontent.contact-section .inner {margin-left: 0; margin-right: 0} */
+.contact-section {background: white !important;}
+.contact-section .realcontent a, .contact-section .icon  {font-size: 56px; color: #b3b3b3 !important} 
+.contact-link {color: #0073aa}
+/* .realcontent.contact-section .content .icon {margin-left: 50px} */
+/* .rightArticle {margin-left: 105px;} */
+
+/******************** Services ********************/ 
+.services ul li {font-size: 20px;}
+.services {padding-bottom: 25px !important;}
+.services.secondServicesRowContent {padding-top: 0px !important; padding-bottom: 60px !important;}
+
+/******************** GENERAL ********************/ 
+h1, h2, h3, h4, h5, h6 {color: #0073aa;}
+#footer {background-color: #0073aa; }
+#footer {color: white;}
+
+/* Card Style on Start page */
+a.absoluteLink {position: absolute; top: 0; bottom:0; left: 0; right: 0; z-index: 9999;}
+.article-container {position: relative;} 
+
+body .contact-section p {margin: 0}
+body .contact-section h5 {margin: 0 0 0.5em}
+body .contact-section  .phone-container {margin: 0 0 1.5em 0}
+body .contact-section.realcontent {margin-bottom: 5.5em}
+/*border-bottom {1px solid rgba(0, 0, 0, 0.05)}*/
