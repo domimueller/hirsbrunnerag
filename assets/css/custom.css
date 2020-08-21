@@ -47,4 +47,5 @@ body .contact-section.realcontent {margin-bottom: 5.5em}
 @media screen and (max-width: 992px) {
 	.logo img { cursor: pointer; max-width: 100%; height: auto;}
 	.navPanelToggle{box-shadow: 0 1px 1.875rem rgba(34,40,49,.2);}
+	#header {position: absolute;}
 }
