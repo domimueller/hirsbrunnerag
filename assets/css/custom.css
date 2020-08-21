@@ -41,11 +41,3 @@ body .contact-section h5 {margin: 0 0 0.5em}
 body .contact-section  .phone-container {margin: 0 0 1.5em 0}
 body .contact-section.realcontent {margin-bottom: 5.5em}
 
-
-/******************** MOBILE ********************/ 
-
-@media screen and (max-width: 992px) {
-	.logo img { cursor: pointer; max-width: 100%; height: auto;}
-	.navPanelToggle{box-shadow: 0 1px 1.875rem rgba(34,40,49,.2);}
-	#header {position: absolute;}
-}
