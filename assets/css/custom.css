@@ -40,3 +40,14 @@ body .contact-section p {margin: 0}
 body .contact-section h5 {margin: 0 0 0.5em}
 body .contact-section  .phone-container {margin: 0 0 1.5em 0}
 body .contact-section.realcontent {margin-bottom: 5.5em}
+
+
+/******************** MOBILE ********************/ 
+
+@media screen and (max-width: 992px) {
+	.logo img {
+    	cursor: pointer;
+    	max-width: 100%;
+    	height: auto;
+}
+}
