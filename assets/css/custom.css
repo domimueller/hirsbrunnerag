@@ -45,9 +45,8 @@ body .contact-section.realcontent {margin-bottom: 5.5em}
 /******************** MOBILE ********************/ 
 
 @media screen and (max-width: 992px) {
-	.logo img {
-    	cursor: pointer;
-    	max-width: 100%;
-    	height: auto;
-}
+	.logo img { cursor: pointer; max-width: 100%; height: auto;}
+	.navPanelToggle{height: 45px}
+	#header {top: 45px;}
+	#banner {margin-top: 45px}
 }
