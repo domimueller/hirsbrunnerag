@@ -11,15 +11,15 @@
 #header a:hover {color: #c2c2c2}
 #header .inner {text-align: left}
 /* logo */
-.logo img {height: 121px; cursor: pointer}					/* height = header height (see main.css line 3100) */
-.logo-container {margin-right: 415px; display: inline-block;}	/* margin-right = length of logo */
+.logo img {height: 121px; cursor: pointer}                      /* height = header height (see main.css line 3100) */
+.logo-container {margin-right: 415px; display: inline-block;}   /* margin-right = length of logo */
 nav a {cursor: pointer}
 div a {cursor: pointer}
 
 /******************** Contact ********************/ 
 .realcontent.contact-section {padding-top: 40px !important; padding-bottom: 0px !important;} 
 .contact-section {background: white !important;}
-.contact-section .realcontent a, .contact-section .icon  {font-size: 56px; color: #b3b3b3 !important} 
+.contact-section .realcontent a, .contact-section .icon {font-size: 56px; color: #b3b3b3 !important} 
 .contact-link {color: #0073aa}
 
 /******************** Services ********************/ 
@@ -44,10 +44,6 @@ body .contact-section.realcontent {margin-bottom: 5.5em}
 
 /******************** MOBILE ********************/ 
 
-
-
-@media screen and (max-width: 480px) {
-	.logo img { cursor: pointer; max-width: 80%; height: auto;}
-	#banner { margin-top: 125px;}
-
+@media screen and (max-width: 560px) {
+    .logo img { max-width: 70vw; max-height: 121px; height: auto;}
 }
